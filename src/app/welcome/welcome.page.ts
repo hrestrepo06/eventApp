@@ -1,6 +1,5 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
-import { CommonModule, NgStyle } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { NgStyle } from '@angular/common';
 import {
   IonContent,
   IonToolbar,
@@ -42,6 +41,6 @@ export class WelcomePage implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+
   }
 }

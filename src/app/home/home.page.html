@@ -42,8 +42,7 @@
     >
       @for (event of upcomingEvents; track $index) {
       <swiper-slide>
-        <ion-card>
-          class="event1" [routerLink]="['/','home','events',event?.id]"
+        <ion-card class="event1" [routerLink]="['/','home','events',event?.id]">
           <ion-item lines="none">
             <ion-thumbnail slot="start">
               <img [src]="event.image" />
